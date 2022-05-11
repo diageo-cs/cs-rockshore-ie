@@ -1,0 +1,992 @@
+.cs_content-buylocally-toggle-map {
+  background-color: #4ab4c3 !important;
+}
+.cs-t4 .cs-FindLocation {
+  background-color: #4ab4c3 !important;
+}
+.cs-t4 .cs_content-buylocally-retailer-call-mob, .cs-t4 .cs_content-buylocally-retailer-dir-mob {
+  background-color: #4ab4c3 !important;
+}
+.cs-t4 .cs_content-buylocally-retailer-list-item a, .cs-t4 .cs_content-buyonline-retailer-list-item_status_mobile {
+  color: #4ab4c3 !important; 
+}
+.cs_header-brandlogo {
+  display: none !important;
+}
+body{
+  background-image: url(../../assets/images/bodybg.jpg);
+    background-size: cover;
+}
+@font-face {
+  font-family: 'Better20Times20Alt';
+  src: url(../fonts/Better20Times20Alt.ttf);
+}
+@font-face {
+  font-family: 'GoodHeadOT-CompBlack';
+  src: url(../fonts/GoodHeadOT-CompBlack.otf);
+}
+@font-face {
+  font-family: 'GoodHeadOT-CondMedium';
+  src: url(../fonts/GoodHeadOT-CondMedium.otf);
+}
+.main_bg{
+  /* background-image: url(../../assets/images/mainheaderbg.png); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 75px 0px 100px 0px;
+  background-position: right;
+  position: relative;
+}
+.headerImg{
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: auto;
+  top: 0px;
+  z-index: 10;
+}
+.bg-video-wrap {
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/rockshore_headervideo.mp4) no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  z-index: 1;
+  object-fit: cover;
+  height: 100%;
+}
+.drinklogo{
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  width: 15%;
+  z-index: 12;
+}
+.this-is {
+	width: 500px !important;
+	padding: 20px 0;
+}
+.mainheaderinfo img{
+  width: 245px;
+}
+.mainheaderinfo .lagerBtn .btn-block{
+  font-size: 3.5em;
+  height: 125px;
+  padding: 10px 30px;
+}
+.mainheaderinfo .lagerBtn {
+  width: 300px;
+  margin: auto;
+}
+.mainheaderinfo h1{
+    font-size: 6em;
+    color: #051a44;
+    font-family: 'GoodHeadOT-CompBlack';
+    line-height: 85px;
+    margin-top: 15px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+.welcome_section{
+    background-image: url(../../assets/images/9575_Rockshore_Texture.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0px 35px 35px 50px;
+    text-align: center;
+    margin-top: -100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 11;
+}
+.welcome_section h1{
+  font-size: 15.8em;
+    color: #fff;
+    font-family: 'Better20Times20Alt';
+    line-height: 1;
+}
+.splashTittle h2 span{
+  font-family: 'Better20Times20Alt';
+}
+.splashTittle h3 span{
+  font-family: 'Better20Times20Alt';
+}
+.welcome_section h2{ 
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    font-family: 'GoodHeadOT-CompBlack';
+    font-size: 54px;
+    letter-spacing: 3px;
+    margin-left: 4%;
+    color: #051a45;
+}
+.welcome_section p{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 1;
+    font-weight: normal;
+    margin-top: -35px;
+    line-height: 1;
+    font-family: 'GoodHeadOT-CondMedium';
+}
+.lagerTittle h2{
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 54px;
+  letter-spacing: 3px;
+  line-height: 1;
+  color: #051a45;
+}
+.lagerTittle h4{
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 42px;
+  letter-spacing: 3px;
+  line-height: 1;
+  color: #051a45;
+  margin-bottom: 15px;
+}
+.bottale_slide_bg{
+    background-image: url(../../assets/images/slider_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0px 35px 35px 50px;
+    text-align: center;
+    margin-top:130px;
+    margin-bottom: 300px;
+    height: 600px;
+}
+#myDIV{
+  display: none;
+}
+
+.lagerSection{
+  margin: 35px 0px;
+}
+.brandsection{
+  position: absolute;
+  z-index: 12;
+  width: 100%;
+  padding: 100px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.brand_logos{
+  background-color: #fff;
+}
+.splashSectionbg{
+  background-size: 100%;
+  margin-top: 80px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.spalshBG{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.splashTittle h1{
+  font-size: 20em;
+  color: #76cad3;
+  font-family: 'Better20Times20Alt';
+  line-height: 1;
+  opacity: 0.5;
+}
+.splashTittle h2, .mobileviewspalchlabel{
+  position: absolute;
+  top: 39%;
+  left: -50px;
+  right: 0;
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 4.8em;
+  letter-spacing: 3px;
+  margin-left: 4%;
+  color: #051a45;
+}
+.canBG1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.canBg{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: -9%;
+  margin-bottom: 50px;
+  position: relative;
+}
+.splashTittle{
+  position: relative;
+  top: -85px;
+}
+.spalash{
+  margin-top: 100px;
+}
+.brandsection{
+  margin-top: 20%;
+}
+.reviews .medium-10{
+  margin-top: 13%;
+}
+.candetails {
+  margin-top: 20px;
+}
+.candetails h2{
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 3em;
+  letter-spacing: 3px;
+  line-height: 40px;
+  color: #051a45;
+}
+.candetails .btn-block{
+  height: 100px;
+  margin: 0px 15px;
+}
+.candetails h4{
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  line-height: 1;
+  color: #051a45;
+  margin-bottom: 35px;
+}
+.canBox{
+  margin-top: -50px;
+}
+.lagerBtn{
+  width: 200px;
+  margin: auto;
+  margin-top: 0px;
+}
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+  background-image: url(../images/btn-bg.png);
+}
+.candetails .btn-block, .lagerBtn .btn-block{
+  background-image: url(../images/btn-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 2.2em;
+  height: 100px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  font-family: 'GoodHeadOT-CompBlack';
+  margin: 0px;
+
+}
+.rockshoreTittlebg{
+  background-image: url("../images/footertexture.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 38%;
+  text-align: center;
+  padding: 100px;
+  margin: auto;
+  background-position: top;
+}
+.rockshoreTittlebg h2{
+  font-size: 42px;
+  color: #fff;
+  font-family: 'GoodHeadOT-CompBlack';
+}
+.footer{
+  background-color: #fff;
+  padding: 25px 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: 10;
+}
+.carousel-control-next{
+  right: 100px;
+}
+.carousel-control-prev{
+  left: 100px;
+}
+.carousel-control-next img, .carousel-control-prev img{
+  width: 50px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.carousel-control-next img:hover, .carousel-control-prev img:hover{
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+.poweredby h5 a{
+  color: #23539e;
+  text-decoration: underline;
+}
+.poweredby p{
+  color: #23539e;
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-wobble-vertical:hover {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.btn{
+  box-shadow:  none!important;
+  outline: none;
+}
+.splashTittle h2 br{
+  display: none;
+}
+.mobileViewsplashbg{
+  background-image: url(../images/mobileseltzer_wavebg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.mobilewatermelonbg{
+  background-image: url(../images/mobileseltzer_watermelon_bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+  margin-left: -15px;
+}
+.mobilelimeBg{
+  background-image: url(../images/mobileseltzer_lime_bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-right: -15px;
+}
+.mobilerassberrybg{
+  background-image: url(../images/mobileseltzer_raspberry_bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+  margin-left: -15px;
+}
+.mobileViewsplashbg{
+  display: none;
+}
+.spalash{
+  overflow: hidden;
+}
+.slick-slider {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+}
+.slick-slider .slick-track {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.slick-slider .slick-slide {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 0px;
+  margin: 10px;
+  transition: all 0.3s ease;
+  height: auto;
+  text-align: center;
+  transition: all ease .3s;
+}
+.slick-slider .slick-slide.slick-current, .slick-slider .slick-slide.slick-center {
+  transition: transform 500ms ease-in-out;
+  transform: scale(1.3);
+  transition-delay: 300ms;
+}
+.slick-prev, .slick-next {
+  z-index: 10;
+  top: 0px;
+  background-color: transparent;
+}
+.slick-dots{
+  display: none;
+}
+.carousel-item img{
+  width: 140px;
+}
+.bottle_slider{
+  width: 50%;
+    margin-top: -135px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position:absolute;
+    padding-top: 2%;
+    left: 0;
+    right: 0;
+}
+.reviews .reviews-slider .icon-angle-left {
+  left: 0%  !important;
+  background-image: url(../images/arrowleft.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute !important;
+  top: 50% !important;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  border: none;
+  box-shadow: none !important;
+  outline: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 12;
+}
+#divTohide{
+  visibility:hidden;
+}
+.reviews .reviews-slider .icon-angle-right {
+  right: 0%  !important;
+  position: absolute !important;
+  top: 50% !important;
+  background-image: url(../images/arrowright.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  border: none;
+  box-shadow: none !important;
+  outline: none !important;
+  display: inline-block;
+  vertical-align: middle;
+}
+.slick-slide img{
+  width: 160px;
+  padding-top: 0%;
+}
+.reviews .slick-slider {
+  z-index: 9;
+}
+.reviews .sin-testiImage img {
+  -webkit-transform: scale(0.8, 0.8);
+  transform: scale(0.8);
+  -webkit-transition: all 1s;
+  transition: all 0.5s;
+  transition: opacity 1.25s ease-out;
+  cursor: pointer;
+  display: block;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviews .sin-testiImage.slick-current img {
+  -webkit-transform: scale(1, 1);
+  transform: scale(0.7);
+  -webkit-transition: all 1s;
+  transition: all 0.5s;
+}
+.reviews .reviews-slider {
+  position: relative;
+}
+.reviews .reviews-slider .icon-angle-left,
+.reviews .reviews-slider .icon-angle-right {
+  position: absolute;
+  top: 40%;
+}
+.reviews .reviews-slider .icon-angle-left:hover,
+.reviews .reviews-slider .icon-angle-right:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+.reviews .reviews-text-slider {
+  margin: auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+}
+.reviews .sin-testiText {
+  outline: none;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 2500px){
+  .canBG1{
+    height: 58%;
+  }
+}
+@media only screen and (max-width: 1630px){
+  .rockshoreTittlebg {
+    background-image: url(../images/footertexture.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 75px;
+    margin: auto;
+    background-position: top;
+}
+}
+@media only screen and (max-width: 1600px){
+  /* .drinklogo{
+    width: 13%;
+} */
+}
+@media only screen and (max-width: 1350px){
+  .welcome_section h1{
+    font-size: 234px;
+  }
+  .welcome_section{
+    width: 75%;
+  }
+  .welcome_section h2{
+    top: 26%;
+    font-size: 48px;
+  }
+  .welcome_section p {
+    font-size: 28px;
+    margin-top: -15px;
+  }
+  .carousel-inner {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .canBg{
+    width: 85%;
+  }
+  .rockshoreTittlebg {
+    background-image: url(../images/footertexture.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 49%;
+    text-align: center;
+    margin: auto;
+    background-position: top;
+}
+.bottle_slider {
+  width: 65%;
+}
+}
+@media only screen and (max-width: 1199px){
+  .canBg {
+    width: 100%;
+}
+.headerImg{
+  right: -145px;
+  z-index: 9;
+}
+}
+@media only screen and (max-width: 1024px){
+
+  .headerImg{
+    right: -270px;
+    z-index: 9;
+  }
+  .welcome_section{
+    margin-top: -55px;
+  }
+  .drinklogo {
+    left: 50px;
+    bottom: 75px;
+    width: 150px;
+  }
+  .welcome_section h1 {
+    font-size: 170px;
+  }
+  .welcome_section h2 {
+    top: 20%;
+    font-size: 36px;
+  }
+  .welcome_section p {
+    font-size: 26px;
+    margin-top: -15px;
+  }
+  .bottale_slide_bg{
+    height: 450px;
+  }
+  .carousel-inner {
+    padding-top: 12%;
+  }
+  .carousel-control-next {
+    right: 50px;
+  }
+  .carousel-control-prev {
+    left: 50px;
+  }
+  .splashSectionbg{
+    background: none;
+  }
+  .spalshBG, .canBg{
+    display: none;
+  }
+  .splashTittle h2,  .mobileviewspalchlabel h3{
+    font-size: 50px;
+  }
+  
+  .mobileViewsplashbg{
+    display: block;
+  }
+  .mobilewatermelonbg img, .mobilelimeBg img, .mobilerassberrybg img{
+    margin-top: -80px;
+    width: 250px;
+  }
+  .watermalon{
+    margin-bottom: 15%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .candetails{
+    text-align: center;
+  }
+  .candetails h4{
+    margin-bottom: 10px;
+  }
+  .spalash{
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  .brandsection {
+    margin-top: 30%;
+}
+.reviews .medium-10 {
+  margin-top: 60px;
+}
+  .bottle_slider{
+    width: 80%;
+    margin-top: -135px;
+  }
+  .slick-slide img {
+    width: 115px;
+    padding-top: 18%;
+}
+}
+@media only screen and (max-width: 767px){
+  .main_bg{
+    background-image: url(../../assets/images/mobileviewmainbg.png);
+    background-size: 100% 100%;
+    padding: 25px 0px 95px 0px;
+    background-repeat: no-repeat;
+  }
+  .bg-video-wrap{
+    height: 445px;
+  }
+  .bg-video-wrap > video {
+    display: none;
+  }
+    
+  
+  .headerImg{
+    right: -95px;
+  }
+  .mainheaderdetails{
+    margin-left: 10px;
+  }
+  .mainheaderinfo .lagerBtn .btn-block{
+    height: 95px;
+  }
+  .rockshoreTittlebg {
+      width: 95%;
+      background-position: top;
+  }
+  .carousel-item.active  + .carousel-item {
+    transform: scale(.5);
+    padding-bottom: 70px;
+  }
+  .mainheaderinfo img {
+      width: 180px;
+  }
+  .this-is {
+    width: 100% !important;
+   }	
+  .drinklogo {
+    bottom: 75px;
+    width: 150px;
+  }
+  .mainheaderinfo h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    margin-bottom: 0px;
+  }
+  .mainheaderinfo .lagerBtn {
+    width: 190px;
+    margin: auto;
+}
+.mainheaderinfo .lagerBtn .btn-block {
+  font-size: 36px;
+}
+.reviews .reviews-slider .icon-angle-left  {
+  left: 10% !important;
+}
+.reviews .reviews-slider .icon-angle-right{
+  right: 10% !important;
+}
+ .welcome_section h1{
+    font-size: 90px;
+  }
+  .welcome_section{
+    width: 90%;
+    padding: 0px 15px 20px 15px;
+    margin-top: -45px;
+  }
+  .welcome_section p{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: normal;
+    line-height: 22px;
+  }
+  .welcome_section h2{
+    font-size: 18px;
+    top: 13%;
+  }
+  .canBg{
+    display: none;
+  }
+  .carousel-control-prev {
+    left: 0;
+  }
+  .carousel-control-next {
+    right: 0;
+  }
+  .bottale_slide_bg{
+    height: 415px;
+    margin-top: 100px;
+    background-size: cover;
+  }
+  .splashTittle h1{
+    font-size: 10em;
+  }
+  .mobileviewspalchlabel{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    font-family: 'GoodHeadOT-CompBlack';
+    font-size: 37px;
+    letter-spacing: 3px;
+    margin-left: 0;
+    color: #051a45;
+    text-align: center;
+    line-height: 34px;
+  }
+.spalshBG{
+  display: none;
+}
+.rockshoreTittlebg{
+  width: 75%;
+}
+.footer{
+  padding: 25px 15px;
+}
+.poweredby p {
+  color: #23539e;
+  font-size: 14px;
+}
+.poweredby h5 a {
+  color: #23539e;
+  font-size: 16px;
+}
+.candetails{
+  text-align: center;
+}
+.candetails h2 {
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 28px;
+  letter-spacing: 3px;
+  line-height: 28px;
+  color: #051a45;
+}
+.candetails h4 {
+  font-family: 'GoodHeadOT-CompBlack';
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1;
+  color: #051a45;
+  margin-bottom: 0px;
+}
+.candetails .btn-block{
+  font-size: 26px;
+  padding: 15px;
+  height: auto;
+  margin: 0px;
+}
+.mobilewatermelonbg img, .mobilelimeBg img, .mobilerassberrybg img{
+  margin-top: -80px;
+  width: 150px;
+}
+.newbrs{
+  margin-bottom: 15px;
+}
+.splashSectionbg{
+  background: none;
+}
+.spalash{
+  overflow: hidden;
+}
+.watermalon{
+  margin-bottom: 25%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.mobileViewsplashbg{
+  display: block;
+}
+.bottle_slider{
+  width: 100%;
+  margin-top: -150px;
+}
+.slick-slide img {
+  width: 125px;
+  transform: scale(0.7, 0.7) !important;
+  margin-top: 60px;
+  padding-top: 0px;
+}
+.slick-slider .slick-slide.slick-current, .slick-slider .slick-slide.slick-center {
+  transition: transform 700ms ease-in-out;
+  transform: scale(1.4);
+  transition-delay: 500ms;
+}
+.reviews .medium-10 {
+  margin-top: 10%;
+}
+.spalash {
+  margin-top: 100px;
+}
+.brandsection {
+  margin-top: 65%;
+}
+.mobileviewspalchlabel h3{
+  font-size: 0.8em;
+}
+.mobileviewspalchlabel h3.text-right{
+  margin-top: -10px;
+  margin-right: -28px;
+}
+.splashTittle h3 span {
+  font-family: 'Better20Times20Alt';
+  font-size: 1.8em;
+  line-height: 10px;
+  font-weight: 500;
+}
+}
+@media only screen and (max-width: 620px){
+  .rockshoreTittlebg {
+    width: 95%;
+    background-position: center;
+    padding: 55px;
+}
+.headerImg{
+  right: -260px;
+}
+.bg-video-wrap{
+  height: 425px;
+}
+}
+.reviews-text-slider.slick-slider .slick-slide.slick-current, .reviews-text-slider.slick-slider .slick-slide.slick-center {
+  transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
