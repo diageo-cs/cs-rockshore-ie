@@ -47,6 +47,9 @@ body{
   width: auto;
   top: 0px;
   z-index: 10;
+  /* height: 100%;
+  width: 100%; */
+  
 }
 .bg-video-wrap {
   position: absolute;
@@ -156,7 +159,7 @@ video {
   margin-bottom: 15px;
 }
 .bottale_slide_bg{
-    background-image: url(../../assets/images/slider_bg.png);
+    background-image: url(../../assets/images/Rockshore_carousel_bg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -512,30 +515,30 @@ video {
   display: none;
 }
 .mobileViewsplashbg{
-  background-image: url(../images/mobileseltzer_wavebg.png);
+  background-image: url(../images/seltzer/Seltzer_Wave\ BG.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .mobilewatermelonbg{
-  background-image: url(../images/mobileseltzer_watermelon_bg.png);
+  background-image: url(../images/seltzer/Seltzer_Watermelon_BG.png);
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: right;
-  margin-left: -15px;
+  margin-left: -50px;
 }
 .mobilelimeBg{
-  background-image: url(../images/mobileseltzer_lime_bg.png);
+  background-image: url(../images/seltzer/Seltzer_Lime_BG.png);
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: left;
-  margin-right: -15px;
+  margin-right: -50px;
 }
 .mobilerassberrybg{
-  background-image: url(../images/mobileseltzer_raspberry_bg.png);
+  background-image: url(../images/seltzer/Seltzer_Raspberry_BG.png);
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: right;
-  margin-left: -15px;
+  margin-left: -50px;
 }
 .mobileViewsplashbg{
   display: none;
@@ -757,6 +760,10 @@ video {
 }
 }
 @media only screen and (max-width: 1024px){
+
+  .canBG1{
+    display: none;
+  }
 
   .headerImg{
     right: -350px;
