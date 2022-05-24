@@ -528,7 +528,7 @@ video {
   margin-left: -50px;
 }
 .mobilelimeBg{
-  background-image: url(../images/seltzer/Seltzer_Lime_BG.png);
+  background-image: url(../images/seltzer/Rockshore-lime.png);
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: left;
@@ -540,7 +540,7 @@ video {
   background-repeat: no-repeat;
   text-align: right;
   margin-left: -50px;
-}
+} 
 .mobileViewsplashbg{
   display: none;
 }
@@ -1010,7 +1010,7 @@ video {
 }
 .mobilewatermelonbg img, .mobilelimeBg img, .mobilerassberrybg img{
   margin-top: -80px;
-  width: 150px;
+  width: 220px;
 }
 .newbrs{
   margin-bottom: 15px;
@@ -1100,6 +1100,10 @@ video {
   width: 150px;
   right: 15px;
   z-index: 12;
+}
+.mobilewatermelonbg img, .mobilelimeBg img, .mobilerassberrybg img{
+  margin-top: -80px;
+  width: 150px;
 }
 }
 
