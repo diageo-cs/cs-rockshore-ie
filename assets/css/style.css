@@ -521,23 +521,23 @@ video {
   background-repeat: no-repeat;
 }
 .mobilewatermelonbg{
-  background-image: url(../images/seltzer/Seltzer_Watermelon_BG.png);
+  /* background-image: url(../images/seltzer/Seltzer_Watermelon_BG.png);
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   text-align: right;
   margin-left: -50px;
 }
 .mobilelimeBg{
-  background-image: url(../images/seltzer/Rockshore-lime.png);
+  /* background-image: url(../images/seltzer/Rockshore-lime.png);
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   text-align: left;
   margin-right: -50px;
 }
 .mobilerassberrybg{
-  background-image: url(../images/seltzer/Seltzer_Raspberry_BG.png);
+  /* background-image: url(../images/seltzer/Seltzer_Raspberry_BG.png);
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   text-align: right;
   margin-left: -50px;
 } 
@@ -761,6 +761,8 @@ video {
 }
 }
 @media only screen and (max-width: 1024px){
+  
+  
 
   .canBG1{
     display: none;
@@ -854,6 +856,15 @@ video {
 }
 }
 @media only screen and (max-width: 767px){
+  .line {
+    position: absolute;
+    z-index: -1;
+    top: 250 !important;
+    width: 100%;
+    right: 30;
+    height: 150px;
+    
+  }
   .main_bg{
     /* background-image: url(../../assets/images/mobileviewmainbg.png); */
     background-size: 100% 100%;
@@ -1104,6 +1115,15 @@ video {
 .mobilewatermelonbg img, .mobilelimeBg img, .mobilerassberrybg img{
   margin-top: -80px;
   width: 150px;
+}
+.line {
+  position: absolute;
+  z-index: -1;
+  top: 200 !important;
+  width: 100%;
+  right: 30;
+  height: 75px !important;
+  
 }
 }
 
