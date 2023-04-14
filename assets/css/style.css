@@ -856,6 +856,13 @@ video {
 }
 }
 @media only screen and (max-width: 767px){
+  video {
+    min-width: 100%;
+    z-index: 1;
+    object-fit: cover;
+    height: 100%;
+    display: none !important;
+  }
   .line {
     position: absolute;
     z-index: -1;
@@ -1083,6 +1090,9 @@ video {
     width: 95%;
     background-position: center;
     padding: 55px;
+}
+.mobileViewsplashbg{
+  background-position: -50px;
 }
 .headerImg{
   right: -240px;
