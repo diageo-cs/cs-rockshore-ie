@@ -1,0 +1,208 @@
+html, body {
+    max-width: 100%;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+.new-hero {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.new-hero__bg {
+    background: #fff;
+    height: 600px;
+    max-width: 1280px;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+}
+.new-hero__bg-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d9e8f0;
+    background-image: url(../../assets/images/new/sky-gradient.jpg);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.new-hero__bg-animation {
+    height: 100%;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.new-hero__img--drinkaware {
+    bottom: 0px;
+    left: 0px;
+    margin-left: 50px;
+    position: absolute;
+    width: 200px;
+}
+.new-hero__img--logo {
+    top: 10px;
+    left: calc(50% - 40px);
+    position: absolute;
+    width: 80px;
+    z-index: 5;
+}
+
+.new-hero__bg-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 800px;
+    width: 100%;
+}
+.new-hero__bg-elements > div {
+    /*border: 1px solid red;*/
+    height: 100%;
+    width: 100%;
+}
+.new-hero__elements-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.new-hero__elements-col--1 {
+    flex-direction: column;
+    flex: 7;
+    z-index: 5;
+}
+.new-hero__elements-col--1 h3 {
+    color: #051a44;
+    font-family: 'GoodHeadOT-CompBlack';
+    font-size: 116px;
+    line-height: 80px;
+    
+}
+.new-hero__elements-col--1 h1 {
+    color: #4fbecd;
+    font-family: 'GoodHeadOT-CompBlack';
+    font-size: 320px;
+    line-height: 220px;
+}
+.new-hero__elements-col--2 {
+    flex: 5;
+    position: relative;
+}
+.new-hero__img--pint {
+    bottom: -50px;
+    left: 50px;
+    position: absolute;
+    width: 210px;
+    z-index: 7;
+}
+.new-hero__img--wave {
+    bottom: 50px;
+    left: 32%;
+    width: 400px;
+    position: absolute;
+    pointer-events: none;
+    z-index: 6;
+}
+.new-hero__img--clouds {
+    height: 100%;
+    right: 0px;
+    top: 0;
+    position: absolute;
+}
+.new-hero__img--button {
+    display: block;
+    width: 180px;
+}
+.new-hero__img--mobile-pint {
+    display: none;
+}
+@media only screen and (max-width: 750px){
+    .new-hero__bg {
+        height: calc(100vw * 1.5);
+        padding: 50px 30px 30px 30px;
+    }
+    .new-hero__elements-col--1 h3 {
+        color: #051a44;
+        font-family: 'GoodHeadOT-CompBlack';
+        font-size: 21vw;
+        line-height: 16vw;
+        
+    }
+    .new-hero__elements-col--1 h1 {
+        color: #4fbecd;
+        font-family: 'GoodHeadOT-CompBlack';
+        font-size: 58vw;
+        line-height: 37vw;
+    }
+    .new-hero__elements-col--1 {
+        width: 100%;
+    }
+    .new-hero__elements-col--2 {
+        display: none;
+    }
+    .new-hero__img--logo {
+        top: 10px;
+        left: calc(50% - 40px);
+    }
+    .new-hero__img--wave {
+        bottom: 30px;
+        left: auto;
+        right: -70px;
+        width: 140vw;
+        position: absolute;
+        z-index: 5;
+    }
+    .new-hero__img--drinkaware {
+   
+        margin-left: 30px;
+        width: 150px;
+    }
+    .new-hero__img--button {
+        width: 100px;
+    }
+    .new-hero__img--mobile-pint {
+        bottom: 0px;
+        display: block;
+        position: absolute;
+        right: 20px;
+        width: 24vw;
+        max-width: 200px;
+        z-index: 6;
+    }
+    .lagerTittle h2 {
+        margin-top: 40px;
+    }
+    
+}
+
+.bottale_slide_bg {
+    position: relative;
+}
+.new-hero__img--carousel-wave {
+    left: -60px;
+    position: absolute;
+    height: 130%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0px;
+}
+.new-hero__img--carousel-tag {
+    right: 0px;
+    position: absolute;
+    width: 250px;
+    bottom: -40px;
+}
+
+@media only screen and (max-width: 750px){
+    .new-hero__img--carousel-tag {
+        width: 180px;
+    }
+}
